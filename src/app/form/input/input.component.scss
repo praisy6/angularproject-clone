@@ -1,0 +1,60 @@
+.input_form{
+    background-color: white;
+    height: 80vh;
+    width: 30vw;
+    border-top: 6px solid #00ADBB ;
+    padding: 1vh 4vw;
+    overflow-y: scroll;
+}
+.input_form > .heading{
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 700;
+    margin: 2vh;
+    padding: 0px;
+    margin-bottom: 3vh;
+    text-transform: uppercase;
+    color: #00ADBB ;
+}
+.nor_head{
+    text-align: center;
+    margin: 0.2vh;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 4vh;
+}
+.input_form > .submit{
+    float: left;
+    margin-left: 6vw;
+    width: 150px;
+    font-size: 2.3vh;
+}
+.input_form > label{
+    font-size: 1.9vh;
+}
+.input_form > input{
+    height: 35px;
+    margin-bottom: 1vh;
+}
+
+@media only screen and (max-width: 900px) {
+    .input_form{
+        background-color: white;
+        height: 80vh;
+        width: 40vw;
+        border-top: 6px solid #00ADBB ;
+        padding: 1vh 4vw;
+        overflow-y: scroll;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .input_form{
+        background-color: white;
+        height: 80vh;
+        width: 85vw;
+        border-top: 6px solid #00ADBB ;
+        padding: 1vh 4vw;
+        overflow-y: scroll;
+        margin-bottom: 4vh;
+    }
+}

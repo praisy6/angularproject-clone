@@ -1,0 +1,50 @@
+.form_main{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #E4E5E5;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  padding: 0.01vh 16vw ;
+}
+.form_main > h2{
+    margin: 3.5vh;
+    text-align: center;
+    color: #C9602C;
+}
+.form_block{
+    display: flex;
+}
+@media only screen and (max-width: 900px) {
+    .form_main{
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: #E4E5E5;
+      font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+      padding: 0.01vh 7vw ;
+    }
+    .form_main > h2{
+        margin: 3.5vh;
+        text-align: center;
+        color: #C9602C;
+    }
+    .form_block{
+        display: flex;
+    }
+    .form_main > h2{
+        font-size: 6vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .form_block{
+        display: block;
+    }
+    .form_main{
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: #E4E5E5;
+      font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+      padding: 5vh 7vw ;
+    }
+    .form_main > h2{
+        font-size: 5vh;
+    }
+}
